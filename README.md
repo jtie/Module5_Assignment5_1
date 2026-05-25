@@ -96,6 +96,10 @@ Understanding these acceptance patterns enables targeted marketing strategies an
 - **The gap of 17.06 percentage points** between social and non-social contexts indicates that coffee house coupons resonate most strongly when the driver is already engaged in a social outing
 - Even drivers alone or with kids show elevated acceptance (59.60%) compared to the overall rate, suggesting visit frequency still matters
 
+![Coffee House Coupon Acceptance Detailed Analysis](images/coffee_house_coupon_acceptance_subplot.png)
+
+*Figure 4: Detailed breakdown of coffee house coupon acceptance patterns by passenger type and visit frequency.*
+
 ---
 
 ## Findings Summary
