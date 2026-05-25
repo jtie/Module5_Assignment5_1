@@ -38,7 +38,7 @@
 
 ![Coffee House Acceptance by Passenger](images/coffee_house_coupon_acceptance_rate.png)
 
-*Figure 3: Acceptance rates for coffee house coupons by passenger type among regular coffee house visitors.*
+*Figure 1: Acceptance rates for coffee house coupons by passenger type among regular coffee house visitors.*
 
 | Passenger Type | Acceptance Rate | Difference from Baseline |
 |----------------|-----------------|-------------------------|
@@ -53,7 +53,7 @@
 
 ![Coffee House Coupon Acceptance Detailed Analysis](images/coffee_house_coupon_acceptance_subplot.png)
 
-*Figure 4: Detailed breakdown of coffee house coupon acceptance patterns by passenger type and income level.*
+*Figure 2: Detailed breakdown of coffee house coupon acceptance patterns by passenger type and income level.*
 
 ---
 
