@@ -98,7 +98,7 @@ Understanding these acceptance patterns enables targeted marketing strategies an
 
 ![Coffee House Coupon Acceptance Detailed Analysis](images/coffee_house_coupon_acceptance_subplot.png)
 
-*Figure 4: Detailed breakdown of coffee house coupon acceptance patterns by passenger type and visit frequency.*
+*Figure 4: Detailed breakdown of coffee house coupon acceptance patterns by passenger type and income level.*
 
 ---
 
@@ -149,11 +149,6 @@ Understanding these acceptance patterns enables targeted marketing strategies an
    - Suppress bar coupons when children are passengers
    - Time bar coupon delivery toward younger demographics and evening/social hours
 
-3. **A/B Testing Campaign**
-   - Test acceptance rate improvements by deploying coupons only to high-frequency visitor segments
-   - Measure lift in redemption rates vs. generic broadcast approach
-   - Estimate ROI of targeted vs. untargeted delivery
-
 ### Future Research Directions
 
 1. **Expand Analysis to Other Coupon Types**
@@ -168,11 +163,7 @@ Understanding these acceptance patterns enables targeted marketing strategies an
    - Explore whether income brackets and occupation types show significant acceptance differences
    - Understand the relationship between financial factors and coupon appeal
 
-4. **Interaction Effects**
-   - Investigate multi-variable interactions (e.g., age × passenger type × visit frequency)
-   - Build predictive models (logistic regression, decision trees) to identify non-obvious patterns
-
-5. **Geographic and Distance Factors**
+4. **Geographic and Distance Factors**
    - Examine how proximity to venue (5min/15min/25min drive) affects acceptance
    - Analyze whether same-direction vs. opposite-direction routing impacts decisions
 
