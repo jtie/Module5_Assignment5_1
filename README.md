@@ -45,38 +45,5 @@ Understanding these acceptance patterns enables targeted marketing strategies an
 
 ---
 
-## Findings Summary
-
-### Bar Coupons: Target Frequent Visitors in Social Contexts
-
-**✅ Key Actionable Insights:**
-
-1. **Primary Target**: Drivers who visit bars >3 times/month show **76.88% acceptance** — nearly double the overall rate
-2. **Secondary Target**: Younger drivers (<30 years) visiting bars regularly demonstrate **72.17% acceptance**
-3. **Context Matters**: Avoid targeting drivers with children present or those in family-oriented situations — acceptance drops significantly
-4. **Cross-venue Opportunity**: Frequent cheap restaurant visitors show moderate acceptance (45.76%), suggesting potential for bundled offers
-
-**⚠️ Avoid**:
-- Drivers who rarely or never visit bars (37.07% acceptance — below overall average)
-- Scenarios with children as passengers
-- Drivers in farming/forestry occupations with kids present
-
----
-
-### Coffee House Coupons: Optimize for Social Occasions
-
-**✅ Key Actionable Insights:**
-
-1. **Primary Target**: Regular coffee house visitors (≥1/month) traveling with **friends or partners** show **76.66% acceptance** — the highest-converting segment
-2. **Timing Strategy**: Deploy coupons when passenger data indicates social contexts (friends/partner), not solo trips or trips with children
-3. **Behavioral Consistency**: Regular coffee house visitors alone/with kids still show strong acceptance (59.60%), indicating visit frequency is foundational
-4. **Opportunity Gap**: The 17-point difference between social and non-social contexts represents a significant optimization opportunity through better targeting
-
-**⚠️ Avoid**:
-- Drivers who never visit coffee houses (acceptance likely below 50% baseline)
-- Generic broadcasting without passenger context data
-
----
-
 ## Data
 The analysis is based on the `coupons.csv` dataset located in the `data/` directory.
