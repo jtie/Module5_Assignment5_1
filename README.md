@@ -3,7 +3,7 @@
 ## Jupyter Notebook
 [View the Analysis Notebook](prompt.ipynb)
 
-GitHub Repository: https://github.com/jtie/assignment5_1
+GitHub Repository: https://github.com/jtie/Module5_Assignment5_1
 
 ---
 
