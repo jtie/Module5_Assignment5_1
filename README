@@ -1,0 +1,82 @@
+# Assignment 5.1 - Coupon Acceptance Summary
+
+## Jupyter Notebook
+[View the Analysis Notebook](prompt.ipynb)
+
+GitHub Repository: https://github.com/jtie/Module5_Assignment5_1
+
+---
+
+## Problem Statement
+
+This analysis investigates **what factors influence drivers to accept mobile coupons** delivered while they are driving. The study focuses on understanding the characteristics and behaviors of drivers who accept coupons versus those who reject them.
+
+Specifically, this analysis examines two coupon categories:
+1. **Bar Coupons**: What driver demographics and behavioral patterns predict acceptance of bar-related offers?
+2. **Coffee House Coupons**: How do passenger types influence acceptance of coffee house coupons among regular coffee house visitors?
+
+Understanding these acceptance patterns enables targeted marketing strategies and improved coupon delivery systems that maximize redemption rates.
+
+---
+
+## Data Overview
+
+**Source**: UCI Machine Learning Repository (collected via Amazon Mechanical Turk survey)
+
+**Dataset**: 12,684 driving scenarios with coupon offers
+
+**Key Variables**:
+- **User Attributes**: Gender, age, marital status, income, occupation, venue visit frequency (bars, coffee houses, restaurants)
+- **Contextual Attributes**: Destination, passenger type, weather, temperature, time of day
+- **Coupon Attributes**: Type (Bar, Coffee House, Restaurant <$20, Restaurant $20-50, Carry out), expiration time
+- **Outcome**: Acceptance (Y=1) or Rejection (Y=0)
+
+**Overall Acceptance Rate**: 56.84% of all coupons were accepted
+
+### Data Distribution
+
+![Coupon Distribution](images/coupon_distribution.png)
+
+*Figure 1: Distribution of coupon types in the dataset. Coffee House and Restaurant (<$20) coupons comprise the majority of offers.*
+
+![Temperature Distribution](images/temperature_distribution.png)
+
+*Figure 2: Distribution of temperatures during coupon delivery scenarios.*
+
+---
+
+## Findings Summary
+
+### Bar Coupons: Target Frequent Visitors in Social Contexts
+
+**✅ Key Actionable Insights:**
+
+1. **Primary Target**: Drivers who visit bars >3 times/month show **76.88% acceptance** — nearly double the overall rate
+2. **Secondary Target**: Younger drivers (<30 years) visiting bars regularly demonstrate **72.17% acceptance**
+3. **Context Matters**: Avoid targeting drivers with children present or those in family-oriented situations — acceptance drops significantly
+4. **Cross-venue Opportunity**: Frequent cheap restaurant visitors show moderate acceptance (45.76%), suggesting potential for bundled offers
+
+**⚠️ Avoid**: 
+- Drivers who rarely or never visit bars (37.07% acceptance — below overall average)
+- Scenarios with children as passengers
+- Drivers in farming/forestry occupations with kids present
+
+---
+
+### Coffee House Coupons: Optimize for Social Occasions
+
+**✅ Key Actionable Insights:**
+
+1. **Primary Target**: Regular coffee house visitors (≥1/month) traveling with **friends or partners** show **76.66% acceptance** — the highest-converting segment
+2. **Timing Strategy**: Deploy coupons when passenger data indicates social contexts (friends/partner), not solo trips or trips with children
+3. **Behavioral Consistency**: Regular coffee house visitors alone/with kids still show strong acceptance (59.60%), indicating visit frequency is foundational
+4. **Opportunity Gap**: The 17-point difference between social and non-social contexts represents a significant optimization opportunity through better targeting
+
+**⚠️ Avoid**: 
+- Drivers who never visit coffee houses (acceptance likely below 50% baseline)
+- Generic broadcasting without passenger context data
+
+---
+
+## Data
+The analysis is based on the `coupons.csv` dataset located in the `data/` directory.
